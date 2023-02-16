@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.base{
+    top:0;
+    height: 100vh;
+}
+.intro{
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    top:0;
+}
+.introImage{
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    opacity: 1;
+    transition: opacity 2s ease-in;
+    z-index: -1;
+}
+#introtext1{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+    width: 70%;
+    transition: opacity 1.2s ease-in;
+}
+#introtext1::after {
+    content: "";
+    width: 5px;
+    height: 30px;
+    background: white;
+    display: inline-block;
+    animation: blink 1s infinite step-end;
+}
+@keyframes blink {
+    from, to { opacity: 0; }
+    
+    50% {opacity: 1;}
+}
+body{
+    background-color:black;
+    margin: 0 auto;
+}

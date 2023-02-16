@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/65960b03d0.js" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+
+    <title>HomePage</title>
+
+    <link rel="stylesheet" type="text/css" href="xray.css"/>
+    <link rel="stylesheet" type="text/css" href="header.css"/>
+    <link rel="stylesheet" type="text/css" href="researchContent.css"/>
+
+</head>
+
+<body>
+
+
+
+<div class="base">
+    <div class="header">
+        <img id="logo" src="images/uw-crest-web.png" onclick="window.open('https://www.physics.wisc.edu/research/')">   
+        <div class="headerText" id="name" onclick="location.href='index.html'">X-ray Astrophysics Group</div>
+        <div class="headerText" id="research" onclick="location.href='research.html'">Research</div>
+        <div class="headerText" id="people" onclick="location.href='people.html'">People</div>
+        <div class="headerText" id="publication" onclick="location.href='publication.html'">Publication</div>
+    </div>
+
+    <div class="intro" rel="preload">
+        <div class="introtext">X-ray Detector Intro Text</div>
+    </div>
+    <div class="case" rel="preload">
+        <div class="left">
+            <div class="content-wrapper">
+                <div class="content-title fade-in">XQC</div>
+                <div class="content fade-in">
+                    The X-ray Quantum Calorimeter (XQC) project is a joint effort between the University of Wisconsin and Goddard Space Flight Center to resolve the spectrum of the soft (&lt1 keV) X-ray background using an array of micro-calorimeters. These micro-calorimeters, which operate at a temperature of 60 mK, provide an energy resolution of less than 10 eV at 1/4 keV. The XQC detector has been successfully launched two times in a sounding rocket from the White Sands Missile Range in New Mexico.
+                </div>
+                <div class="content-subtitle fade-in">
+                    Introduction to X-Ray Quantum Calorimeter
+                </div>
+                <div class="content fade-in">
+                    XQC stands for X-Ray Quantum Calorimeter, a soft x-ray spectrometer used for suborbital astrophysical observations. The XQC sounding rocket payload is designed to study the diffuse X-Ray background in the energy range from 0.05 to 1 keV at very high spectral resolution. The diffuse x-ray background is thought to emanate from a local region of hot interstellar gas. Previous experiments have implied that this gas is a hot, low density plasma but did not have the resolving power to distinguish individual emission lines over a broad spectral range. This experiment is able to resolve line emission from the hot plasma.
+                </div>
+                <div class="content fade-in">
+                    The launch vehicle for the XQC detector is a Nike-Black Brant two stage sounding rocket. The rocket was assembled at White Sands Missile Range by NASA's Wallops Flight Facility. Sounding rocket flights are quite short in duration, approximately 15 minutes, but obtain an altitude above 220 km. The XQC experiment was designed to have an observing time of only 240 seconds during the flight, sufficient, however, to obtain a reasonable spectroscopic observation.
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content-wrapper">
+                <img class="image fade-in" src="./images/XQC.jpg">
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="header.js" type="module" defer></script>
+<script src="observers.js" type="module" defer></script>
+</body>
+
+</html>
