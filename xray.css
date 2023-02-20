@@ -6,7 +6,7 @@
 
 .base {
     top: 0;
-    height: 5800px;
+    height: 5900px;
 }
 
 #research {
@@ -127,13 +127,13 @@
 }
 
 .case4 {
-    height: 1200px;
+    height: 1300px;
     top: 3700px
 }
 
 .case5 {
     height: 900px;
-    top: 4900px;
+    top: 5000px;
 }
 
 #observation-target-title {
