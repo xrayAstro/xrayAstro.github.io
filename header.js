@@ -1,9 +1,15 @@
 const header = document.querySelector('.header');
 const introText = document.querySelector('.introtext');
+const introsubText = document.querySelector('.introsubtext');
 
 window.onload = function() {
     introText.style.opacity = "1";
+    introsubText.style.opacity = "1";
 };
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
 
 document.addEventListener("mousewheel", function(event){
     if (event.wheelDelta >= 0) {
