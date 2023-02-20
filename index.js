@@ -1,7 +1,7 @@
 let intro_image = document.querySelector('.introImage');
 let i = 0;
-let txt = '"Half the normal matter in the Universe is thought to be in the form of diffuse gas at temperature ~1 million degrees or higher, where it only shows up in X-rays.This is what we study: building rocket detectors and instruments to measure the X-ray emission from diffuse hot gas."Dan';
-let speed = 30;
+let txt = '"Half the normal matter in the Universe is thought to be in the form of diffuse gas at temperature ~1 million degrees or higher, where it only shows up in X-rays.This is what we study: building rocket detectors and instruments to measure the X-ray emission from diffuse hot gas."Dan McCammon';
+let speed = 10;
 window.onload = function() {
     myFunction();
     setTimeout(typeWriter, 2000);

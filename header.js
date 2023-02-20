@@ -7,9 +7,11 @@ window.onload = function() {
     introsubText.style.opacity = "1";
 };
 
-window.onbeforeunload = function () {
+
+if (performance.navigation.type == 1) {
+    // Scroll to the top of the page
     window.scrollTo(0, 0);
-}
+  }
 
 document.addEventListener("mousewheel", function(event){
     if (event.wheelDelta >= 0) {
