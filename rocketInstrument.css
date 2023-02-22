@@ -6,7 +6,7 @@
 
 .base {
     top: 0;
-    height: 5000px;
+    height: 2800px;
 }
 
 #research {
@@ -67,46 +67,6 @@
     margin-top: 25px;
 }
 
-#XQC-observation {
-    border: none;
-    width: 90%;
-    margin-top: 55px;
-}
-
-#XQC-observation2 {
-    border: none;
-    width: 90%;
-    margin-top: 50px;
-}
-
-#XQC-observation-closeup {
-    border: none;
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 98px;
-}
-
-#XQC-data {
-    width: 75%;
-    margin-top: 25px;
-    margin-left: 0px;
-}
-
-#flight1 {
-    width: 90%;
-    margin-top: 45px;
-}
-
-#flight2 {
-    width: 100%;
-    margin-top: 85px;
-}
-
-#graph {
-    width: 110%;
-    margin-top: 65px;
-}
-
 .case {
     position: absolute;
     background: black;
@@ -119,16 +79,7 @@
 
 .case2 {
     top: 1800px;
-}
-
-.case3 {
-    height: 1050px;
-    top: 2650px;
-}
-
-.case4 {
-    height: 1350px;
-    top: 3650px;
+    height: 1000px;
 }
 
 #observation-target-title {

@@ -83,8 +83,16 @@
     width: 80%;
 }
 
+#postAuLOText {
+    margin-left: 17%;
+}
+
 #dieF20 {
     margin-top: 150px;
+}
+
+#dieF20Text {
+    margin-left: 5%;
 }
 
 #twoStage {
