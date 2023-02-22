@@ -61,10 +61,38 @@
     font-weight: 120;
 }
 
+figure {
+    position: relative;
+    display: inline-block;
+}
+
 .image {
     margin: 0 auto;
     display: block;
     width: 85%;
     border: solid white 3px;
     border-radius: 5px;
+}
+
+.image-text {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: Gill Sans;
+    margin-top: 15px;
+    line-height: 1.2;
+    font-size: 1vw;
+    font-weight: 120;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: all 400ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(-60px);
 }
