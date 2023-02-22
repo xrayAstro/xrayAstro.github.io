@@ -8,7 +8,7 @@ window.onload = function() {
 };
 
 
-if (performance.navigation.type == 1) {
+if (performance == 1) {
     // Scroll to the top of the page
     window.scrollTo(0, 0);
   }
