@@ -29,7 +29,7 @@
 #logo {
     position: absolute;
     height: 90px;
-    top: 25px;
+    top: 27px;
     left: 60px;
 }
 
@@ -38,9 +38,9 @@
     color: white;
     font-family: Futura, sans-serif;
     width: 50px;
-    top: 49px;
+    top: 59px;
     width: 600px;
-    font-size: 37px;
+    font-size: 30px;
     left: 140px;
 }
 
