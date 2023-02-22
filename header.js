@@ -29,7 +29,7 @@ function checkWindowWidth() {
     var windowWidth = window.innerWidth;
   
     // Set the threshold width below which the div should be hidden
-    var thresholdWidth = 1050; // Change this value to your desired threshold width
+    var thresholdWidth = 970; // Change this value to your desired threshold width
   
     // Get a reference to the div element
     var labName = document.getElementById("name");
