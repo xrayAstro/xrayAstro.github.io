@@ -48,20 +48,16 @@
     cursor: pointer;
 }
 
-#about {
-    right: 650px;
-}
-
 #research {
-    right: 490px;
+    left: 65vw;
 }
 
 #people {
-    right: 300px;
+    left: 77.5vw;
 }
 
 #publication {
-    right: 150px;
+    left: 88vw;
 }
 
 #logo:hover {

@@ -42,9 +42,9 @@
 
 .casetext {
     position: relative;
-    top: 650px;
+    top: 690px;
     font-family: 'Playfair Display';
-    font-size: 60px;
+    font-size: 3.5vw;
     font-weight: 100;
     left: 5%;
     color: white;
@@ -52,9 +52,9 @@
 
 .casetext2 {
     position: relative;
-    top: 650px;
+    top: 690px;
     font-family: 'Playfair Display';
-    font-size: 30px;
+    font-size: 1.8vw;
     left: 5%;
     color: white;
 }
@@ -63,17 +63,14 @@
     position: relative;
     width: 105%;
     height: 105%;
-    line-height: 46px;
+    line-height: 3vw;
     font-family: Gill Sans;
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: 500;
     color: white;
     margin-left: -3px;
 }
 
-#linkText:hover {
-    color: rgb(20, 20, 20);
-}
 
 .case1 {
     position: absolute;
@@ -87,11 +84,12 @@
 }
 
 #hoverLink {
+    display: inline-block;
     position: absolute;
-    top: 800px;
+    top: 830px;
     left: 5%;
-    width: 160px;
-    height: 50px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     border: white;
     border-style: solid;
     border-width: 2.9px;
@@ -101,13 +99,17 @@
 }
 
 #hoverLink:hover {
-    box-shadow: inset 0 -50px 0 0 ghostwhite;
+    box-shadow: inset 0 -3.1vw 0 0 ghostwhite;
     cursor: pointer;
+}
+
+#hoverLink:hover>#linkText {
+    color: rgb(20, 20, 20) !important;
 }
 
 .case2 {
     position: absolute;
-    background: url("./images/xqc1.jpg") no-repeat;
+    background: url("./images/rocketObservation.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
