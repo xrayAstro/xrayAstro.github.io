@@ -9,9 +9,9 @@ var image = document.getElementById("background-image");
 
 video.addEventListener("canplaythrough", function() {
     if (!firstTimePlay) {
-        video.currentTime = 0.6;
+        video.currentTime = 0.5;
         video.play();
-        image.style.display = "none";
+        setTimeout(function(){image.style.display = "none";}, 100);
         firstTimePlay = true;
     }
 });

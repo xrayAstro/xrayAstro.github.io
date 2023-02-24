@@ -16,7 +16,7 @@
 }
 
 .intro {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     background: url("./images/publication.jpg") no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@
 .introtext {
     position: relative;
     text-align: center;
-    top: 45%;
+    top: 40%;
     font-family: 'Playfair Display';
     font-size: 100px;
     font-weight: 100;
