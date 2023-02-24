@@ -10,8 +10,8 @@ var image = document.getElementById("background-image");
 video.addEventListener("canplaythrough", function() {
     if (!firstTimePlay) {
         video.currentTime = 0.6;
-        image.style.display = "none";
         video.play();
+        image.style.display = "none";
         firstTimePlay = true;
     }
 });
