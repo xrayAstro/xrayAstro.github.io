@@ -1,9 +1,6 @@
 const header = document.querySelector('.header');
 const introText = document.querySelector('.introtext');
-
-window.onload = function() {
-    introText.style.opacity = "1";
-};
+introText.style.opacity = "1";
 
 
 if (performance == 1) {
