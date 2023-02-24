@@ -18,7 +18,7 @@
 .intro {
     position: absolute;
     z-index: -1;
-    background: url("./images/research-intro.jpg") no-repeat;
+    background: url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/research-intro.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
@@ -109,7 +109,7 @@
 
 .case2 {
     position: absolute;
-    background: url("./images/rocketObservation.jpg") no-repeat;
+    background: url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/rocketObservation.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;

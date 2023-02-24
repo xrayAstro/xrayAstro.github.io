@@ -18,7 +18,7 @@
 .intro {
     position: absolute;
     z-index: -1;
-    background: url("./images/tes2.jpg") no-repeat;
+    background: url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/tes2.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
