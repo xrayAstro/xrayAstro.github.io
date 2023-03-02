@@ -49,23 +49,32 @@
 }
 
 .case1 {
-    height: 800px;
+    height: 900px;
     top: 1000px;
 }
 
 .case2 {
     height: 1600px;
-    top: 1800px;
+    top: 1900px;
 }
 
 .case3 {
     height: 1300px;
-    top: 3350px;
+    top: 3450px;
+}
+
+#RvT {
+    margin-top: 60px;
+    width: 60%;
+}
+
+#RvT-link {
+    color: white;
 }
 
 #nextPayload {
-    margin-top: 150px;
-    width: 100%;
+    margin-top: 60px;
+    width: 80%;
 }
 
 #liftOff1 {
