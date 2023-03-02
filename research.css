@@ -18,7 +18,7 @@
 .intro {
     position: absolute;
     z-index: -1;
-    background: url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/research-intro.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8)), url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/research-intro.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
@@ -74,7 +74,7 @@
 
 .case1 {
     position: absolute;
-    background: url("./images/45degreesDieF49.png") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)), url("./images/45degreesDieF49.png") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
@@ -109,7 +109,7 @@
 
 .case2 {
     position: absolute;
-    background: url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/rocketObservation.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)), url("https://andrewleap-resource.s3.us-east-2.amazonaws.com/Images/rocketObservation.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
@@ -120,7 +120,7 @@
 
 .case3 {
     position: absolute;
-    background: url("./images/Rocket.JPG") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)), url("./images/Rocket.JPG") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
@@ -131,7 +131,7 @@
 
 .case4 {
     position: absolute;
-    background: url("./images/Satellite.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)), url("./images/Satellite.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
