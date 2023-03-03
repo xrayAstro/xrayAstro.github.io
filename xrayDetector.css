@@ -78,8 +78,8 @@
 }
 
 #liftOff1 {
-    margin-top: 130px;
-    width: 100%;
+    margin-top: 80px;
+    width: 35%;
 }
 
 #dev22 {
@@ -88,12 +88,12 @@
 }
 
 #postAuLO {
-    margin-top: 232px;
+    margin-top: 65px;
     width: 80%;
 }
 
 #postAuLOText {
-    margin-left: 17%;
+    margin-left: 7%;
 }
 
 #dieF20 {
@@ -107,4 +107,14 @@
 #twoStage {
     margin-top: 140px;
     width: 100%;
+}
+
+#pulser {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#pulser:hover {
+    color: rgba(255, 255, 255, 0.6)
 }
