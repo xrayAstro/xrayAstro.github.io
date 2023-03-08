@@ -6,11 +6,11 @@
 
 .base {
     top: 0;
-    height: 100vh;
+    height: 200vh;
 }
 
 .intro {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     background-size: cover;
     background-position: center 0;
@@ -32,10 +32,20 @@
     z-index: -1;
 }
 
+.intro2 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 200vh;
+    overflow: hidden;
+    top: 0;
+    background-color: transparent;
+}
+
 .introtext {
     position: relative;
     text-align: center;
-    top: 45%;
+    top: 46vh;
     font-family: Futura, sans-serif;
     font-size: 4vw;
     font-weight: 100;
@@ -45,7 +55,59 @@
     z-index: 10;
 }
 
+.arrow {
+    position: absolute;
+    top: 59vh;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-top: 28px solid white;
+    animation: bounce 2s infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.introtext2 {
+    position: relative;
+    text-align: left;
+    top: 123vh;
+    font-family: Futura, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 50;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: white;
+    z-index: 10;
+}
+
+.background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 200vh;
+    overflow: hidden;
+    top: 0;
+    background-color: black;
+    opacity: 0;
+}
+
 body {
     background-color: black;
     margin: 0 auto;
+    overscroll-behavior: none;
 }

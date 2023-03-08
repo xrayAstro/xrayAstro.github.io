@@ -10,7 +10,7 @@ if (performance == 1) {
 
 document.addEventListener("mousewheel", function(event){
     if (event.wheelDelta >= 0) {
-        header.style.display = "";
+        header.style.display = "block";
         setTimeout(function(){header.style.opacity = "1"}, 10);
     } else {
         header.style.opacity = "0";
