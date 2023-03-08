@@ -1,8 +1,10 @@
 const introText = document.querySelector('.introtext');
+const arrow = document.querySelector('.arrow');
 var video = document.getElementById("background-video");
 let firstTimePlay = true;
 if (firstTimePlay) {
     introText.style.opacity = 1;
+    arrow.style.opacity = 1;
     video.currentTime = 0.5;
 }
 
